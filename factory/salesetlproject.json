@@ -1,0 +1,9 @@
+{
+	"name": "salesetlproject",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1a5fc7da-9713-492b-a5c2-545739d844ad",
+		"tenantId": "a4308109-c43b-4ce9-9348-63cb4e237753"
+	}
+}
