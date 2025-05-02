@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "salesetlproject"
+		},
+		"DestAzureDataLake_accountKey": {
+			"value": ""
+		},
+		"SpurceDBAzureSql_password": {
+			"value": ""
+		},
+		"DestAzureDataLake_properties_typeProperties_url": {
+			"value": "https://etlprojectdemo.dfs.core.windows.net/"
+		},
+		"SpurceDBAzureSql_properties_typeProperties_server": {
+			"value": "otctaserver.database.windows.net"
+		},
+		"SpurceDBAzureSql_properties_typeProperties_database": {
+			"value": "salesdb"
+		},
+		"SpurceDBAzureSql_properties_typeProperties_userName": {
+			"value": "adminsand"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
